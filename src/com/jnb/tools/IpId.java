@@ -46,7 +46,7 @@ public class IpId {
             }
         }
         ipId = ipStringBuilder.toString();
-        JOptionPane.showMessageDialog(null,"O IP ID É: "+ ipId, 
+        JOptionPane.showMessageDialog(null,"O IP ID é: "+ ipId, 
         "IP-SUBMASK",JOptionPane.PLAIN_MESSAGE);
     }
 }
