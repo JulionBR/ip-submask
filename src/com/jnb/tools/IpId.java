@@ -1,5 +1,8 @@
 package com.jnb.tools;
 
+import javax.swing.JOptionPane;
+
+
 public class IpId {
     public static void ipidcont(String ip, String subMask) {
         String ipId, superBinario;
@@ -43,7 +46,7 @@ public class IpId {
             }
         }
         ipId = ipStringBuilder.toString();
-        System.out.println(ipId);
-
+        JOptionPane.showMessageDialog(null,"O IP ID É: "+ ipId, 
+        "IP-SUBMASK",JOptionPane.PLAIN_MESSAGE);
     }
 }
