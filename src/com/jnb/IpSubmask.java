@@ -2,6 +2,7 @@ package com.jnb;
 
 import com.jnb.tools.IpId;
 import com.jnb.tools.TotalHost;
+import com.jnb.tools.SubRedes;
 import javax.swing.JOptionPane;
 
 public class IpSubmask {
@@ -32,6 +33,9 @@ public class IpSubmask {
                     break; 
                 case 3:
                     TotalHost.host(subMask);
+                    break;
+                case 4:
+                    SubRedes.sub();
                     break;
                 default:
                     JOptionPane.showMessageDialog(null,"Opção invalida",
