@@ -11,7 +11,6 @@ public class TotalHost {
         subMaskSlipt = subMask.split("\\.");
         for(int i = 0; i<=3; i++){
             subMaskInteiro[i] = Integer.parseInt(subMaskSlipt[i]);
-            System.out.println(subMaskInteiro[i]);
             subMaskBinario = Integer.toBinaryString(subMaskInteiro[i]);
             while (subMaskBinario.length() < 8) {
                 subMaskBinario = "0" + subMaskBinario;
