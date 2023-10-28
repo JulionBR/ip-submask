@@ -8,7 +8,7 @@ public class IpSubmask {
     public static void main(String[] args) {
         String ip, subMask;
         int opcoes = 1;
-        String[] escolha = {"Sair", "IP ID", "Total Host"};
+        String[] escolha = {"Sair", "Troca IP e máscara de sub-rede", "IP ID", "Total Host"};
         ip = JOptionPane.showInputDialog(null,"Digite o endereço IP: ", 
         "IP-SUBMASK",JOptionPane.QUESTION_MESSAGE);
         subMask = JOptionPane.showInputDialog(null,"Digite a máscara de sub-rede:", 
@@ -22,9 +22,15 @@ public class IpSubmask {
                     System.out.println("Saindo");
                     break;
                 case 1:
+                    ip = JOptionPane.showInputDialog(null,"Digite o endereço IP: ", 
+                    "IP-SUBMASK",JOptionPane.QUESTION_MESSAGE);
+                    subMask = JOptionPane.showInputDialog(null,"Digite a máscara de sub-rede:", 
+                    "IP-SUBMASK",JOptionPane.QUESTION_MESSAGE);
+                    break;
+                case 2:
                     IpId.ipidcont(ip, subMask);
                     break; 
-                case 2:
+                case 3:
                     TotalHost.host(subMask);
                     break;
                 default:
