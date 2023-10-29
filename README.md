@@ -16,12 +16,16 @@ Certifique-se de ter o ambiente de desenvolvimento Java configurado para executa
     <img src="https://github.com/JulionBR/ip-submask/assets/88972643/96c33ec7-e61e-40f1-9d0e-c864ce96e447" width="400px" />
 </div>
 
-#### 3. Após a entrada, você terá duas opções:
-![Opções](https://github.com/JulionBR/ip-submask/assets/88972643/7de228fd-164e-4307-abfe-34f455a248af)
+#### 3. Após a entrada, você terá quatro opções:
+![Opções](https://github.com/JulionBR/ip-submask/assets/88972643/d9a767bc-d37b-4dff-b020-a184bc3d0f46)
 
 #### 3.1 . "IP ID": Isso calculará o IP ID com base no endereço IP e na máscara de sub-rede e exibirá o resultado.
 
 #### 3.2. "Total Host": Isso calculará o número total de hosts com base na máscara de sub-rede e exibirá o resultado.
+
+#### 3.3. "Total sub-rede": Isso calculará o número total de sub-rede com base na máscara de sub-rede e exibirá o resultado.
+
+#### 3.4. "Troca IP e máscara de sub-rede": Isso permite que você troque o IP e máscara de sub-rede para estar fazendo os calculos.
 
 ### Siga as opções do menu para realizar os cálculos desejados.
 
